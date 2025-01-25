@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://mithii-sweets.onrender.com'
+export const url = 'https://mithii-sweets-backend.onrender.com'
