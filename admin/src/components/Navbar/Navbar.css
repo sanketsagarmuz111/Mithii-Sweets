@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.navbar .logo{
+    width: max(10%,120px);
+}
+.navbar .profile{
+    width: 50px;
+} 
+.admin_logo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.admin{
+ position: absolute;
+ bottom: -8px;
+ right: 12px;
+}
