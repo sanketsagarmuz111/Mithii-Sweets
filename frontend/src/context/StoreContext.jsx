@@ -9,11 +9,12 @@ export const StoreContext = createContext({
   removeFromCart: () => {},
   getTotalCartAmount: () => {},
 });
- 
+
 const StoreContextProvider = ({ children }) => {
 
   const [cartItems, setCartItems] = useState({});
-  const url = "https://mithii-sweets-backend.onrender.com";
+  // const url = "https://mithii-sweets.onrender.com";
+  const url = "http://localhost:4000";
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
