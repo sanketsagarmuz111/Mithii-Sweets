@@ -13,8 +13,8 @@ export const StoreContext = createContext({
 const StoreContextProvider = ({ children }) => {
 
   const [cartItems, setCartItems] = useState({});
-  // const url = "https://mithii-sweets.onrender.com";
-  const url = "http://localhost:4000";
+  const url = "https://mithii-sweets.onrender.com";
+  // const url = "http://localhost:4000";
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
