@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
-const username = "sanketsagarmuz111"
-const db_password = "sanketsagarmuz111"
+const username = "sanketsagarmuz111";
+const db_password = "sanketsagarmuz111";
 
 export const connectDB = async () => {
   await mongoose

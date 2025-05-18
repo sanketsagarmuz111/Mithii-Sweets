@@ -58,11 +58,11 @@ const PlaceOrder = () => {
       navigate('/cart')
     }
     else if(getTotalCartAmount() === 0 ){
-      navigate('/cart')
+      navigate('/cart') 
     }
   },[token])
 
-  return (
+  return ( 
     <form onSubmit={placeOrder} className="place-order">
       <div className="place-order-left">
         <p className="title">Delivery Information</p>

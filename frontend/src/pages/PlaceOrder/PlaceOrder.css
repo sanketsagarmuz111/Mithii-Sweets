@@ -32,4 +32,15 @@
 }
 .place-order .cart-total button{
     margin-top: 30px;
+} 
+
+@media (max-width:900px){
+    .place-order{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        gap: 50px;
+        margin-top: 100px;
+    }
 }
