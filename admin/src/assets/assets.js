@@ -14,4 +14,5 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://mithiisweets-backend.onrender.com'
+// export const url = 'https://mithiisweets-backend.onrender.com'
+export const url = 'http://localhost:4000'
